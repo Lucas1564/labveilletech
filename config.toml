@@ -1,75 +1,20 @@
 baseurl = "https://lucas1564.github.io/labveilletech/"
 metaDataFormat = "yaml"
-title = "LabVeilleTech - Eloi"
+title = "LabVeilleTech - Lucas"
 theme = "blist"
 
 DefaultContentLanguage = "fr"
-DefaultContentLanguageInSubdir = true
-[languages]
-  [languages.en]
-    contentDir = "content/en" #English
-    weight = 1
-    languageName = "English"
-    [languages.en.params]
-      introTitle = "Hey! I'm Katheryn Fox"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
-      introPhoto = "/labveilletech/picture.jpg"
-      logo = "/labveilletech/blist-logo.png"
-    [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.en.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
-
-  [languages.de]
-    contentDir = "content/de" # Deutsch
-    weight = 2
-    languageName = "Deutsch"
-    title = "Blist (mehrsprachig)"
-    description = "Modernes Blog-Theme für Ihre Hugo-Site."
-    [languages.de.params]
-      introTitle = "Hallo, ich bin Katheryn Fox"
-      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo-de.png"
-    [[languages.de.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.de.menu.main]]
-        name = "Über mich"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.de.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-        
+DefaultContentLanguageInSubdir = false
+[languages]    
   [languages.fr]
     contentDir = "content/fr" #French
     weight = 1
     languageName = "Français"
     [languages.fr.params]
-      introTitle = "Salut! Je suis Eloi Coquoz"
-      introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
-      introPhoto = "/labveilletech/picture.jpg"
-      logo = "/labveilletech/blist-logo.png"
+      introTitle = "Salut! Je m'appelle Lucass"
+      introSubtitle = "Je suis étudiant en dernière année d’ingénierie des médias en Suisse, j’ai un grand intérêt pour les nouvelles technologies, la création de sites web, le marketing et la communication digitale. <br><br>En parallèle de mes études, je réalise des projets professionnels pour des entreprises et des particuliers."
+      introPhoto = "/labveilletech/portrait_LucasCuennet.JPG"
+      logo = "/labveilletech/logo_Lucas.png"
     [[languages.fr.menu.main]]
         name = "Blog"
         url = "blog"
@@ -80,11 +25,6 @@ DefaultContentLanguageInSubdir = true
         url = "page/about/"
         weight = 2
 
-    [[languages.fr.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -93,8 +33,8 @@ DefaultContentLanguageInSubdir = true
   enableSearch = true
 
   # Custom copyright - optional
-  copyright = "Copyright © 2022 - Eloi Coquoz · All rights reserved"
-  favicon = "/favicon.svg"
+  copyright = "Copyright © 2023 - Lucas Cuennet · Tous droits réservés"
+  favicon = "/labveilletech/favicon_Lucas.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
