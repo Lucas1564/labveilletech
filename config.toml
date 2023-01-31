@@ -11,7 +11,7 @@ DefaultContentLanguageInSubdir = false
     weight = 1
     languageName = "Français"
     [languages.fr.params]
-      introTitle = "Salut! Je m'appelle Lucass"
+      introTitle = "Salut! Je m'appelle Lucas"
       introSubtitle = "Je suis étudiant en dernière année d’ingénierie des médias en Suisse, j’ai un grand intérêt pour les nouvelles technologies, la création de sites web, le marketing et la communication digitale. <br><br>En parallèle de mes études, je réalise des projets professionnels pour des entreprises et des particuliers."
       introPhoto = "/labveilletech/portrait_LucasCuennet.JPG"
       logo = "/labveilletech/logo_Lucas.png"
@@ -52,13 +52,6 @@ DefaultContentLanguageInSubdir = false
   # Can be used at site level or page level
   hideOtherLanguages = false
 
-[params.homepage.social]
-  # Global params common for both languages
-  title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
-  linkedin = "https://www.linkedin.com/in/eloi-coquoz/"
-  github = "https://github.com/eloicoquoz"
-  instagram = "https://instagram.com/coquoz_eloi"
 
 [[menu.main]]
   name = "About"
